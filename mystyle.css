@@ -1,0 +1,96 @@
+body{
+  background-color: rgb(7, 167, 167);
+}
+/* header{
+  background-color: rgb(191, 184, 184);
+  background-position: center;
+  background-size: contain;
+  height: 75px;
+} */
+.header {
+  min-height: 78vh; 
+  background-image: url(image/Vet1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  padding-top: 90px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  
+}
+h1{
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid teal;
+  border-right: 2px solid salmon;
+  width: 200px;
+  text-align: center;
+}
+nav ul{
+  text-align: center;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 7px;
+}
+nav ul li a:hover{
+  background-color: rgb(20, 117, 155);
+  transition: 0.5 ease;
+}
+nav ul li .active{
+  background-color: black;
+}
+.text{
+  display: inline-block;
+  padding: 0px 5px;
+}
+.dognurses{
+  display: inline-block;  
+}
+.container img{
+  width: 320px;
+  height: 200px;
+  margin: 7px;
+  
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  
+}
+.div1{
+  display: inline-block;
+}
+.timetable{
+  list-style: none;
+}
+.div2{
+  display: inline-block;
+  padding: 0px 40px;
+}
+.div3{
+  display: inline-block;
+  padding: 0px 30px;
+}
+.div4{
+  display: inline-block;
+}
+.directory{
+  list-style: none;
+}
+.footer {
+min-height: 50vh; 
+background-image: url(image/footer.jpg)
+}
